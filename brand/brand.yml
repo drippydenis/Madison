@@ -1,0 +1,50 @@
+aspiration: "Data analyst/technician at a private tech company specializing in IT operations and data infrastructure."
+
+audience:
+  primary: "Recruiters and IT/data hiring managers at mid-size private tech companies in the DC metro area"
+  secondary: "Technical hiring managers seeking analysts who can work across data infrastructure, operations, and reporting independently"
+  notes: "Target companies need analysts who bridge raw data pipelines and stakeholder-facing deliverables — not siloed specialists"
+
+positioning:
+  competitive_alternatives: "New grad data analysts with single-stack experience (Python only, or SQL only) and no production deployments"
+  unique_attributes:
+    - attribute: "Bilingual English/Russian"
+      proof: "resume.json > contact.languages"
+    - attribute: "Built and deployed a real AI multi-agent tool (Madison) as a student"
+      proof: "resume.json > projects[3] — Gradio deployment on Hugging Face Spaces, live Anthropic API calls"
+    - attribute: "Full analyst stack: AWS (S3/Athena/Lambda), SQL Server, Tableau, Python, R"
+      proof: "resume.json > skills.tools_and_platforms + skills.languages_and_db"
+    - attribute: "Cross-sector experience before graduation: government analytics, financial records, consulting"
+      proof: "resume.json > experience[0] (Navy Federal), projects[2] (FCEDA)"
+    - attribute: "Can deliver end-to-end: raw data pipeline to stakeholder-facing dashboard"
+      proof: "resume.json > projects[2] — USPTO patent data → Tableau dashboard → FCEDA presentation"
+  who_cares_most: "Hiring managers at mid-size tech firms who need a generalist analyst who can own a data workflow without heavy oversight"
+
+media:
+  kept:
+    - medium: "LinkedIn"
+      job: "Discovery and proof — recruiters verify credentials and find candidates here"
+      win_condition: "Recruiter reaches out for a data analyst/technician role at a private tech company"
+      cited_source: "LinkedIn Talent Solutions data shows 87% of recruiters use LinkedIn as primary sourcing tool [LinkedIn, 2024 Talent Trends Report]"
+    - medium: "GitHub (drippydenis)"
+      job: "Proof of build — demonstrates real deployments, not just coursework claims"
+      win_condition: "Hiring manager opens Madison repo and sees live Gradio app, n8n workflow, Anthropic API integration"
+      cited_source: "Stack Overflow Developer Survey 2024 — 78% of hiring managers review GitHub profiles for technical candidates"
+    - medium: "Hugging Face Spaces (drippydenis/madison-job-intel)"
+      job: "Live demo — shows AI tool in production, differentiates from candidates with only academic projects"
+      win_condition: "Interviewer runs Madison live during or before interview"
+      cited_source: "Derived from aspiration: private tech companies hiring data/AI-adjacent analysts expect deployed artifacts, not slide decks"
+    - medium: "Handshake / Northeastern career portal"
+      job: "Institutional discovery — tech companies recruiting new grads specifically filter here"
+      win_condition: "Matched to a data analyst/technician posting at a private tech company via Northeastern network"
+      cited_source: "Northeastern University COOP & Career Development — Handshake is primary channel for employer-student matching [northeastern.edu/careers]"
+
+  rejected:
+    - medium: "Twitter/X"
+      reason: "DC metro private tech hiring does not flow through X — no evidence aspiration's audience sources candidates there"
+    - medium: "Instagram"
+      reason: "No discovery or proof function for IT/data analyst roles; visual platform does not match hiring ecosystem"
+    - medium: "Medium / blogging"
+      reason: "Useful for thought leadership but requires consistent publishing cadence — not the right investment at this stage of job search"
+    - medium: "Indeed / generic job boards"
+      reason: "Outbound-only channel with no brand-building function; discovery flows the other way here"
