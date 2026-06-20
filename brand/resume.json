@@ -1,0 +1,137 @@
+{
+  "attested": "2026-06-20",
+  "attestation_notes": "Three import errors caught and corrected: (1) Graduation date for George Mason shifted — resume says Dec 2025, corrected from an earlier draft that listed May 2025; (2) FCEDA role title improved from 'Consultant' to 'Business & Technical Analytics Consultant (PREP)' — the abbreviated title undersells the scope; (3) IT Specialist certification inferred as 'Python basics cert' but is a credentialed Certiport IT Specialist in Python valid through Sep 2030 — skill level was understated.",
+  "contact": {
+    "name": "Denis Bykov",
+    "location": "Sterling, VA",
+    "phone": "571-444-9888",
+    "email": "denisbykov04@gmail.com",
+    "linkedin": "linkedin.com/in/denis-bykov-202a72222"
+  },
+  "education": [
+    {
+      "institution": "Northeastern University",
+      "degree": "MS in Information Systems",
+      "expected": "Dec 2027",
+      "status": "in-progress"
+    },
+    {
+      "institution": "George Mason University",
+      "degree": "BS in Management Information Systems",
+      "graduated": "Dec 2025",
+      "status": "completed"
+    }
+  ],
+  "skills": {
+    "languages_and_db": ["Python", "R", "Java", "SQL Server", "T-SQL", "Stored Procedures", "SQLite", "MS Access", "Azure SQL"],
+    "tools_and_platforms": ["Excel", "Tableau", "AWS S3", "AWS Athena", "AWS Lambda", "GitHub", "Azure Data Studio", "JavaFX", "VS Code", "MS Office Suite"],
+    "certifications": [
+      {
+        "name": "IT Specialist in Python",
+        "issuer": "Certiport",
+        "valid_until": "Sep 2030"
+      },
+      {
+        "name": "Exploratory Data Analysis in R",
+        "issuer": "DataCamp"
+      },
+      {
+        "name": "Intro to Tidyverse",
+        "issuer": "DataCamp"
+      }
+    ],
+    "languages": ["English (native)", "Russian (native)"]
+  },
+  "experience": [
+    {
+      "title": "Mortgage Records Management Specialist I",
+      "company": "Navy Federal Credit Union",
+      "recruiter": "TEKsystems",
+      "location": "Vienna, VA",
+      "start": "Apr 2026",
+      "end": "Present",
+      "highlights": [
+        "Managed and audited critical mortgage loan documents within a large-scale financial records system",
+        "Processed lien releases and loan lifecycle documentation per federal and state regulations",
+        "Utilized document management systems and Excel to track, update, and reconcile mortgage records",
+        "Applied terminal digit filing logic and systematic retrieval protocols"
+      ]
+    },
+    {
+      "title": "Facility Supervisor",
+      "company": "Loudoun County Government",
+      "location": "Sterling, VA",
+      "start": "Aug 2024",
+      "end": "Present",
+      "highlights": [
+        "Resolved visitor concerns, enforced safety protocols, coordinated with management on operational improvements",
+        "Oversaw daily operations, staff coordination, and community event support"
+      ]
+    },
+    {
+      "title": "Food Runner",
+      "company": "Local Provisions Restaurant",
+      "location": "Sterling, VA",
+      "start": "Jan 2023",
+      "end": "Oct 2023",
+      "highlights": [
+        "Coordinated with kitchen and front-of-house staff for accurate, timely order delivery"
+      ]
+    },
+    {
+      "title": "Lifeguard / Assistant Manager",
+      "company": "Millennium Pool Management",
+      "location": "Sterling, VA",
+      "start": "May 2021",
+      "end": "Sep 2021",
+      "highlights": [
+        "Promoted to Assistant Manager after completing advanced certifications",
+        "Trained new lifeguards, supervised pool safety, led emergency response, managed daily operational documentation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Healthcare Management Database System",
+      "institution": "Northeastern University",
+      "date": "Apr 2026",
+      "highlights": [
+        "Designed 25-table SQL Server database for healthcare organizations",
+        "Built stored procedures, views, UDFs, and triggers to automate core operations",
+        "Implemented AES-256 column-level encryption, table partitioning, and Chart.js visualizations",
+        "Collaborated with team of 4 using Agile workflow"
+      ]
+    },
+    {
+      "title": "StockForge — Inventory Management System",
+      "institution": "Northeastern University",
+      "date": "Apr 2026",
+      "highlights": [
+        "Built full-stack desktop inventory app using JavaFX and SQLite",
+        "Implemented complete GUI layer and backend business logic",
+        "Used GitHub for version control with teammates Tolu and Carolina"
+      ]
+    },
+    {
+      "title": "Business & Technical Analytics Consultant (PREP)",
+      "organization": "Fairfax County Economic Development Authority",
+      "date": "Aug – Dec 2025",
+      "highlights": [
+        "Analyzed large-scale USPTO patent datasets using AWS (S3, Athena, Lambda)",
+        "Built interactive Tableau dashboard with filters to surface tech cluster trends",
+        "Presented findings to FCEDA representatives and project leads"
+      ]
+    },
+    {
+      "title": "Madison — DC Metro Job Market Intelligence Tool",
+      "institution": "Northeastern University",
+      "date": "May 2026 – Present",
+      "highlights": [
+        "Built multi-agent debate architecture (Agent A: harsh hiring manager, Agent B: candidate advocate, Synthesis Judge)",
+        "Deployed as Gradio app to Hugging Face Spaces (drippydenis/madison-job-intel)",
+        "Integrates BLS data, NewsAPI, and Kaggle LinkedIn dataset via 14-node n8n workflow",
+        "Calls Claude claude-opus-4-6 via Anthropic API for dynamic agent output"
+      ]
+    }
+  ]
+}
